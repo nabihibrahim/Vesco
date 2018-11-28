@@ -1,0 +1,131 @@
+/*=================================
+                media query
+=================================*/
+/* Extra large devices (large desktops, 1200px and up)
+*/
+@media (max-width: 1200px) {
+    
+}
+
+/* Large devices (desktops, 992px and up)
+*/
+@media (min-width: 992px)and (max-width:1199px) {
+    .vesco-nav-wrapper{
+        padding: 0;
+    }
+    .navbar-nav > li > a{
+        font-size: 14px
+    }
+    #footer-menu a{
+        font-size: 14px;
+    }
+}
+/* Medium devices (tablets, 768px and up)
+*/
+@media (min-width: 768px)and (max-width:991px) {
+    .navbar{
+        background-color: rgba(0,0,0,.7);
+        padding: 0;
+    }
+    .navbar-collapse{
+    margin-left: 20px;
+    }
+    .vesco-nav-wrapper{
+        padding: 10px;
+    }
+    #home-heading h3 {
+        font-size: 30px;
+    }
+}
+/* Small devices (landscape phones, 576px and up)
+*/
+@media (min-width: 576px)and (max-width:767px) {
+    .navbar{
+        background-color: rgba(0,0,0,.7);
+        padding: 0;
+    }
+    .navbar-collapse{
+    margin-left: 20px;
+    }
+    .vesco-nav-wrapper{
+        padding: 10px;
+    }
+    #home-heading h3 {
+        font-size: 30px;
+        font-weight: normal;
+    }
+    .testimonial blockquote{
+        padding: 6px 80px;
+    }
+    .testimonial blockquote::before,
+    .testimonial blockquote::after{
+        font-size: 40px;
+        padding: 5px;
+    }
+    .testimonial blockquote p{
+        font-size: 12px;
+    }
+    #footer-menu a{
+        font-size: 15px;
+        font-weight: normal;
+    }
+    #footer-copyright p{
+        font-size: 18px
+    }
+}
+/* Small devices (landscape phones, 576px and up)
+*/
+@media (max-width: 576px) {
+    .navbar{
+        background-color: rgba(0,0,0,.7);
+        padding: 0;
+    }
+    .navbar-collapse{
+    margin-left: 20px;
+    }
+    .vesco-nav-wrapper{
+        padding: 10px;
+    }
+    #home-heading h3 {
+        font-size: 22px;
+        font-weight: normal;
+    }
+    h3{
+        font-size: 22px;
+    }
+    
+    #about-bg-diagonal{
+        /*border-left: 0;
+        border-top: 0;
+        width: 100%;
+        height: 350px;*/
+        display: none;
+    }
+    #about{
+        text-align: center;
+    }
+    #about .content-title h3{
+        text-align: center;
+    }
+    #about .content-title-underline {
+    margin: 0 auto 30px;
+    }
+    .testimonial blockquote{
+        padding: 6px 50px;
+    }
+    .testimonial blockquote p{
+        font-size: 8px;
+    }
+    
+    .testimonial blockquote::before,
+    .testimonial blockquote::after{
+        font-size: 20px
+    }
+    #footer-copyright p{
+        font-size: 15px
+    }
+    #footer-menu a{
+        font-size: 12px;
+        font-weight: normal;
+    }
+}
