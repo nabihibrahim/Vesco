@@ -1,4 +1,15 @@
 /*================================
+            nice scroll
+================================*/
+$(function() {
+   $('html').niceScroll({
+        cursorcolor:'#34c6d3',
+        cursorwidth: 10,
+        cursorborderradius:0,
+        cursorborder:'1px solid #9b59b6'
+    }); 
+});
+/*================================
             service
 ================================*/
 $(function () {
